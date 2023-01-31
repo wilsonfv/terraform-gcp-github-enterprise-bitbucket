@@ -1,0 +1,8 @@
+project_id = "[onprem GCP Project ID]"
+region = "europe-west1"
+
+network = "projects/[onprem GCP Project ID]/global/networks/onprem-vpc1"
+subnetwork = "projects/[onprem GCP Project ID]/regions/europe-west1/subnetworks/onprem-vpc1-europe-west1"
+
+shared_vpc_project = "[shared vpc GCP Project ID]"
+shared_vpc_network = "projects/[shared vpc GCP Project ID]/global/networks/vpchost-eu-dev-vpc1"
